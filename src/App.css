@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("https://media.istockphoto.com/id/1150985376/vector/modern-simple-geometric-vector-seamless-pattern-with-gold-flowers-line-texture-on-white.jpg?s=612x612&w=0&k=20&c=SzFAHjHDhPnVkD42wGnHOkrBbNJ5mg395x9KtjYr2rQ=");
+  background-size: tile;
+  background-position: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+text-align: center;
+font-family: "Norican", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+};
+
+/* Skills section CSS */
+.skills-section {
+  padding: 20px;
+  background-color: #f0f0f0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skills-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.skill-category {
+  margin: 20px;
+  padding: 20px;
+  background-color: hwb(0 100% 0% / 0.712);
+  border: 1px solid rgba(197, 163, 12, 0.479);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill-category h3 {
+  margin-top: 0;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-category li {
+  margin-bottom: 10px;
+}
+.box {
+  background-color: hsla(0, 0%, 90%, 0.425);
+  max-width: fit-content;
+  margin: 0 auto; /* replaces margin-left */
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgba(197, 163, 12, 0.479);
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:50px;
+  text-align: center;
+  padding-top: 25px;
 }
